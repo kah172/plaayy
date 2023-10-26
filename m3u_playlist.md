@@ -81,7 +81,6 @@
 
 ## M3U file format sample
 ```
-#m3uhead
 #EXTM3U url-tvg="https://google.com/epg.xml.gz" url-logo="https://google.com/" catchup="" catchup-days="" catchup-source="" tvg-shift="" cache="" deinterlace="" aspect-ratio="16:9" refresh="60" max-conn="1" billed-till="" billed-msg=""
 #EXTINF:-1 tvg-chno="1" tvg-id="1" tvg-name="tv1" tvg-logo="https://google.com/logo.png" group_id="1" group-logo="https://google.com/logo2.png" group-title="tv",TV1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
