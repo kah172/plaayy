@@ -87,12 +87,12 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=abc:def
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://google.com&user-agent=https://google.com/
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://google.com/&user-agent=Mozilla/5.0
 #EXTHTTP:{"origin":"https://google.com"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://google.com/
 #EXTVLCOPT:network-caching=500
-https://google.com/tv1.mpd|drmScheme=clearkey&drmLicense=abc:def&Referer=https://google.com&User-agent=https://google.com
+https://google.com/tv1.mpd|drmScheme=clearkey&drmLicense=abc:def&Referer=https://google.com/&User-agent=Mozilla/5.0
 ```
 
 ### Player
