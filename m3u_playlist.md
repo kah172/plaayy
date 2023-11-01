@@ -68,6 +68,7 @@
 
 ## #KODIPROP:parameter=value
 * `inputstreamaddon=inputstream.adaptive`
+* `inputstream.adaptive.chooser_resolution_secure_max=` 360p 480p 720p
 * `inputstream.adaptive.manifest_type=` dash/hls
 * `inputstream.adaptive.license_type=` DRM type
    - `com.widevine.alpha` Widevine
